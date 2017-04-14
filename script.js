@@ -1,24 +1,84 @@
+// var aSingleDivYo = document.createElement("div");
+
+// aSingleDivYo.className = "whatever";
+
+// document.body.appendChild(aSingleDivYo)
+
+// for (var t=0; t<4; t++) {
+
+//     document.body.appendChild(aSingleDivYo)
+
+// }
+
+// age in kar ro bokoni faghat yekbar box ro mide chon fek mikone estebahi dobar be body ezafe kardi
 
 
-document.write("hello");
 
-for ( var dog=0; dog<10; dog++){
-    
+
+
+
+// for (var t = 0; t < 4; t++) {
+
+//     document.body.appendChild(aSingleDivYo)
+//     var aSingleDivYo = document.createElement("div");
+
+//     aSingleDivYo.className = "whatever";
+
+// }
+
+
+
+
+// function addASingleDivyo() {
+
+//     var aSingleDivYo = document.createElement("div");
+//     aSingleDivYo.className = "whatever";
+//     document.body.appendChild(aSingleDivYo)
+// }
+
+
+
+
+// var t = 0 ;
+// do { 
+//     addASingleDivyo();
+//     t++;
+// } while(t<4);
+
+
+
+
+// var t=0;
+
+// while (t<4){
+//     addASingleDivyo();
+//     t++;
+// }
+
+
+// var element = document.createElement('h1');
+// // thisIsMyElement.innerText = " text ";
+// // dovument.body.appenChild(thisIsMyElement);
+
+
+
+var h1 = document.createElement('h1');
+var content = document.createTextNode('h1');
+h1.appendChild(content);
+document.body.appendChild(h1);
+
+
+
+var h2 = document.createElement('h2');
+var content = document.createTextNode('h2');
+h2.appendChild(content);
+document.body.appendChild(h2);
+
 document.write("<br>");
-document.write(dog);
-}
 
-var cat=0;
-do { 
-    document.write("<br>");
-    document.write(cat);
-    cat++;
+var p = document.createElement('p');
+var content = document.createTextNode('p');
 
-} while( cat < 10 );
-
-var monkey=0;
-while(monkey < 10) {
-    document.write("<br>");
-    document.write(monkey);
-    monkey++;
-}
+p.appendChild(content);
+document.body.appendChild(p);
+document.write("<br>");
